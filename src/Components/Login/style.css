@@ -1,0 +1,35 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+.login > .image {
+    display: flex;
+    justify-content: space-around;
+}
+.login > .image > img {
+    width: 40%;
+}
+.login > a{
+    background-color: #1bd760;
+    padding: 1rem 5rem;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 800;
+    border-radius: 99px;
+}
+
+@media (max-width : 760px) {
+    .login > .image {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .login > .image > img {
+        width: 80%;
+        margin-bottom: 2rem;
+        margin-left: 2rem;
+    }
+}
